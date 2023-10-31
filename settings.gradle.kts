@@ -3,6 +3,12 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
+
+    plugins {
+        val kotlinVersion: String by settings
+
+        kotlin("jvm") version kotlinVersion
+    }
 }
 
 plugins {
@@ -10,3 +16,5 @@ plugins {
 }
 
 rootProject.name = "test-project"
+
+include("m1l1-first-app")
