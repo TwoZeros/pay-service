@@ -15,6 +15,6 @@ plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.5.0"
 }
 
-rootProject.name = "test-project"
+rootProject.name = "pay-service"
 
 include("m1l1-first-app")
